@@ -1,0 +1,55 @@
+body {
+    font: 11pt Arial, Helvetica, sans-serif; 
+  background: url(spb.jpg) no-repeat;
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+     }	 
+h1 {
+    text-align: center;
+    font-size: 36px; 
+    margin: 0; 
+   }
+.b1 {
+	width: 80%; 
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+    }
+.b2 {
+    height:100%; 
+    float:left; 
+    }
+.b3 { 	
+    height:100%; 
+    float:right;
+    }
+#header { 
+	background: rgba(255, 255, 255, 0.5);
+	width: 80%; 
+	height: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	padding: 10px; 
+   }
+#content { 
+	padding: 5px;
+   }
+#footer { 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    padding: 5px; 
+    clear: left; 
+   }
+img {
+    border: 2px solid #544	;
+   }
