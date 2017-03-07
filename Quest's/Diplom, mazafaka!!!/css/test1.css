@@ -1,11 +1,3 @@
-<html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width-device-width, initial-scale-1.0">
-<title> Comp Info (test) - Контакты </title>
-<link href="css/slider.css" rel="stylesheet" type="text/css">
-<link href="css/poisk.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="img/icon.png" type="image/png">
-<style type="text/css">
 *{
 	margin: 0;
 	padding: 0;
@@ -32,8 +24,7 @@ h3 {
 	text-decoration: underline;
 	}
 #container {
-	margin:0 auto;
-	height: auto;
+	
 	width: 100%;
 	height: 100%;
 	}
@@ -358,71 +349,3 @@ A:hover {
 }
 .semi {opacity: 1.0;}
 .semi:hover {opacity: 0.5;}
-</style>
-</head>
-<body>
-<div id="container">
-<div id="header">
-<a href="CompInfo_start.html"><img class="i1" width="250px" src="img/Logo2.png"></a>
-</div>
-<div id="navigation">
-<form action="" method="post" class="search">
-  <input type="search" name="" placeholder="Поиск по сайту" class="input">
-  <input type="submit" name="" value="" class="submit">
-</form>
-</div>
-<div id="navigation2">
-	<div id="nav4"><a href="test2.html" class="fontnav"><h1 class="fontn"> Контакты </h1></a></div>
-	<div id="nav3"><a href="test1.html" class="fontnav"><h1 class="fontn"> Новости </h1></a></div>
-	<div id="nav2"><a href="#" class="fontnav"><h1 class="fontn"> Продукция </h1></a></div>
-	<div id="nav1"><a href="CompInfo_start.html" class="fontnav"><h1 class="fontn"> Главная </h1></a></div>
-</div>
-<div id="content">
-	<div id="nov2" class="semi"><a href="#"><h1 class="fontcat"> Новость 1 </h1></a></div>
-	<div id="nov1" class="semi"><a href="#"><h1 class="fontcat"> Новость 2 </h1></a></div>
-	<div class="slides">
-		<ul> 
-			<li><img src="slides/1.png" alt="image01"></li>
-			<li><img src="slides/2.png" alt="image02"></li>
-			<li><img src="slides/3.png" alt="image03"></li>
-			<li><img src="slides/4.png" alt="image04"></li>
-			<li><img src="slides/5.png" alt="image04"></li>
-		</ul>
-	</div>
-	<div id="nov3" class="semi"><a href="#"><h1 class="fontcat"> Новость 3 </h1></a></div>
-	<div id="nov4" class="semi"><a href="#"><h1 class="fontcat"> Новость 4 </h1></a></div>
-</div>
-<div id="menu"><h3 id="fontgl"> Главная </h3>
-	<h3 id="fontpro"> Продукция </h3>
-		<ul>
-			<li><a href="#"> Материнская плата </a></li>
-			<li><a href="#"> Жёсткий диск </a></li>
-			<li><a href="#"> Оперативная память </a></li>
-			<li><a href="#"> Видеокарта </a></li>
-			<li><a href="#"> Процессор </a></li>
-			<li><a href="#"> Охлаждение(Кулер) </a></li>
-			<li><a href="#"> Блок питания </a></li>
-		</ul>
-	<h3 id="fontnov"> Новости </h3>
-		<ul>
-			<li><a href="#"> Неделя </a></li>
-			<li><a href="#"> Месяц </a></li>
-			<li><a href="#"> Год </a></li>
-		</ul>
-	<h3 id="fontcon"><a href="#"> Контакты </a></h3>
-</div>
-<div id="cat">
-	<div id="cat1" class="semi"><a href="#"><h1 class="fontcat"> Оперативная память </h1></a></div>
-	<div id="cat2" class="semi"><a href="#"><h1 class="fontcat"> Видеокарта </h1></a></div>
-	<div id="cat3" class="semi"><a href="#"><h1 class="fontcat"> Процессор </h1></a></div>
-	<div id="cat4" class="semi"><a href="#"><h1 class="fontcat"> Жёсткий диск </h1></a></div>
-	<div id="cat5" class="semi"><a href="#"><h1 class="fontcat"> Материнская плата </h1></a></div>
-</div>
-<div id="footer"><h6>© Nekto_Mr.Major</h6></div>
-	<div id="nav5"><a href="#" class="fontnav"><h1 class="fontnav"> Обратная связь </h1></a></div>
-	<div id="nav6"><a href="#" class="fontnav"><h1 class="fontnav"> Предложения </h1></a></div>
-	<div id="nav7"><a href="#" class="fontnav"><h1 class="fontnav"> Реклама </h1></a></div>
-	<div id="nav8"><a href="#" class="fontnav"><h1 class="fontnav"> Контакты </h1></a></div>
-</div>
-</body>
-</html>
