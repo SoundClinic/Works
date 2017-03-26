@@ -1,9 +1,9 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title> Comp Info (test) - Главная </title>
-<link href="css/slider.css" rel="stylesheet" type="text/css" />
-<link href="css/poisk.css" rel="stylesheet" type="text/css" />
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width-device-width, initial-scale-1.0">
+<title> Comp Info (test) - Контакты </title>
+<link href="css/slider.css" rel="stylesheet" type="text/css">
+<link href="css/poisk.css" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="img/icon.png" type="image/png">
 <style type="text/css">
 *{
@@ -12,10 +12,10 @@
 	}
 body {
 	background-image: url(img/bg.png);
-    -moz-background-size: auto; 
-    -webkit-background-size: auto; 
-    -o-background-size: auto; 
-    background-size: auto;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%
 	}
 h6 {
 	text-align: right;
@@ -32,7 +32,8 @@ h3 {
 	text-decoration: underline;
 	}
 #container {
-	
+	margin:0 auto;
+	height: auto;
 	width: 100%;
 	height: 100%;
 	}
@@ -54,6 +55,7 @@ h3 {
 	height: 50%;
 	border-radius: 25px;
 	position: absolute;
+	overflow: hidden;
 	}
 li {
     list-style-type: none;
@@ -86,6 +88,7 @@ li {
 	width: 67%;
 	position: absolute;
 	border-radius: 0 30px 30px 0;
+	overflow: hidden;
 	}
 #footer { 
 	background-image: url(img/foot.png);
@@ -100,6 +103,7 @@ li {
 	margin-right: 10%;
 	height: 13%;
 	border-radius: 30px 30px 0 0;
+	overflow: hidden;
 	}
 #navigation {
 	background-image: url(img/nav.png);
@@ -113,6 +117,7 @@ li {
 	height: 10%;
 	border-radius: 0 0 30px 30px;
 	position: absolute;
+	overflow: hidden;
 	}
 #cat { 
 	margin-top: 20px;
@@ -121,6 +126,7 @@ li {
 	margin-left: 9%;
 	margin-right: 10%;
 	position: absolute; bottom: -10%;
+	overflow: hidden;
 	}
 #navigation2 {
 	float: right;
@@ -129,16 +135,19 @@ li {
 	margin-left: 40%;
 	position: absolute;
 	border-radius: 0 0 30px 0;
+	overflow: hidden;
 	}
 #nov1 {
-	background-color: pink;
+	background-image: url(img/01.jpg); 
+	background-size: cover;
 	text-align: center;
 	float: right;
 	height: 50%;
 	width: 25%;
 	}
 #nov2 {
-	background-color: red;
+	background-image: url(img/02.jpg); 
+	background-size: cover; 
 	text-align: center;
 	float: right;
 	height: 50%;
@@ -146,7 +155,8 @@ li {
 	border-radius:0 30px 0 0;
 	}
 #nov3 {
-	background-color: silver;
+	background-image: url(img/04.jpg); 
+	background-size: cover; 
 	text-align: center;
 	float: right;
 	height: 50%;
@@ -154,7 +164,8 @@ li {
 	border-radius: 0 0 30px 0;
 	}
 #nov4 {
-	background-color: orange;
+	background-image: url(img/03.jpg); 
+	background-size: cover;
 	text-align: center;
 	float: right;
 	height: 50%;
@@ -206,10 +217,10 @@ li {
    }
 #cat5 { 
 	background-image: url(img/categories/mother.png);
-    -moz-background-size: contain; 
-    -webkit-background-size: contain; 
-    -o-background-size: contain; 
-    background-size: contain; 
+    -moz-background-size: cover; 
+    -webkit-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
 	text-align: center;
 	float: right;
 	width: 20%;
@@ -228,6 +239,7 @@ li {
 	float: right;
 	width: 25%;
 	height: 100%;
+	overflow: hidden;
 	}
 #nav3 {
 	background: rgba(255, 255, 255, 0.25);
@@ -253,6 +265,7 @@ li {
 	position: absolute; bottom: -30%;
 	margin-left: 9%;
 	border-radius: 30px 0 0 0;
+	overflow: hidden;
 	}
 #nav6 {
 	background: rgba(255, 255, 255, 0.25);
@@ -262,6 +275,7 @@ li {
 	height: 13%;
 	position: absolute; bottom: -30%;
 	margin-left: 21.5%;
+	overflow: hidden;
 	}
 #nav7 {
 	background: rgba(255, 255, 255, 0.25);
@@ -271,6 +285,7 @@ li {
 	height: 13%;
 	position: absolute; bottom: -30%;
 	margin-left: 34%;
+	overflow: hidden;
 	}
 #nav8 {
 	text-align: center;
@@ -280,6 +295,7 @@ li {
 	height: 13%;
 	position: absolute; bottom: -30%;
 	margin-left: 46.5%;
+	overflow: hidden;
 	}
 .fontnav {
 	font-family: 'Times New Roman', Times, serif;
@@ -296,6 +312,14 @@ li {
 	color: #000;
 	font-size: 20px;
 	padding-top: 12.5%;
+	}
+.fontcat {
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.25);
 	}
 A:link { text-decoration: none;
    font-weight: 100px; 
@@ -325,44 +349,48 @@ A:hover {
 	font-style: italic;
 	color: #000; 
    }
-.i1 {
-	position: absolute;
-	margin-top: -12%;
-	margin-left: -7%;
+.i1 { 
+	max-width: 100%;
+	margin: 0 0 0 0;
+	height: auto;
+	margin-left: 2%;
+	margin-top: 3.5%;
 }
+.semi {opacity: 1.0;}
+.semi:hover {opacity: 0.5;}
 </style>
 </head>
 <body>
 <div id="container">
 <div id="header">
-<a href="CompInfo_start.html"><img class="i1" img src="img/logo2.png"></a>
+<a href="CompInfo_start.html"><img class="i1" width="250px" src="img/Logo2.png"></a>
 </div>
 <div id="navigation">
 <form action="" method="post" class="search">
-  <input type="search" name="" placeholder="Поиск по сайту" class="input" />
-  <input type="submit" name="" value="" class="submit" />
+  <input type="search" name="" placeholder="Поиск по сайту" class="input">
+  <input type="submit" name="" value="" class="submit">
 </form>
 </div>
 <div id="navigation2">
-	<div id="nav4"><a href="test2.html" class="fontnav"><h1  class="fontn"> Контакты </h1></a></div>
-	<div id="nav3"><a href="test1.html" class="fontnav"><h1  class="fontn"> Новости </h1></a></div>
-	<div id="nav2"><a href="#" class="fontnav"><h1  class="fontn"> Продукция </h1></a></div>
-	<div id="nav1"><a href="CompInfo_start.html" class="fontnav"><h1  class="fontn"> Главная </h1></a></div>
+	<div id="nav4"><a href="test2.html" class="fontnav"><h1 class="fontn"> Контакты </h1></a></div>
+	<div id="nav3"><a href="test1.html" class="fontnav"><h1 class="fontn"> Новости </h1></a></div>
+	<div id="nav2"><a href="#" class="fontnav"><h1 class="fontn"> Продукция </h1></a></div>
+	<div id="nav1"><a href="CompInfo_start.html" class="fontnav"><h1 class="fontn"> Главная </h1></a></div>
 </div>
 <div id="content">
-	<div id="nov2"> Новость 1 </div>
-	<div id="nov1"> Новость 2 </div>
+	<div id="nov2" class="semi"><a href="#"><h1 class="fontcat"> Новость 1 </h1></a></div>
+	<div id="nov1" class="semi"><a href="#"><h1 class="fontcat"> Новость 2 </h1></a></div>
 	<div class="slides">
 		<ul> 
-			<li><img src="slides/1.png" alt="image01" /></li>
-			<li><img src="slides/2.png" alt="image02" /></li>
-			<li><img src="slides/3.png" alt="image03" /></li>
-			<li><img src="slides/4.png" alt="image04" /></li>
-			<li><img src="slides/5.png" alt="image04" /></li>
+			<li><img src="slides/1.png" alt="image01"></li>
+			<li><img src="slides/2.png" alt="image02"></li>
+			<li><img src="slides/3.png" alt="image03"></li>
+			<li><img src="slides/4.png" alt="image04"></li>
+			<li><img src="slides/5.png" alt="image04"></li>
 		</ul>
 	</div>
-	<div id="nov3"> Новость 3 </div>
-	<div id="nov4"> Новость 4 </div>
+	<div id="nov3" class="semi"><a href="#"><h1 class="fontcat"> Новость 3 </h1></a></div>
+	<div id="nov4" class="semi"><a href="#"><h1 class="fontcat"> Новость 4 </h1></a></div>
 </div>
 <div id="menu"><h3 id="fontgl"> Главная </h3>
 	<h3 id="fontpro"> Продукция </h3>
@@ -384,17 +412,17 @@ A:hover {
 	<h3 id="fontcon"><a href="#"> Контакты </a></h3>
 </div>
 <div id="cat">
-	<div id="cat1"> Категория 1 </div>
-	<div id="cat2"> Категория 2 </div>
-	<div id="cat3"> Категория 3 </div>
-	<div id="cat4"> Категория 4 </div>
-	<div id="cat5"> Категория 5 </div>
+	<div id="cat1" class="semi"><a href="#"><h1 class="fontcat"> Оперативная память </h1></a></div>
+	<div id="cat2" class="semi"><a href="#"><h1 class="fontcat"> Видеокарта </h1></a></div>
+	<div id="cat3" class="semi"><a href="#"><h1 class="fontcat"> Процессор </h1></a></div>
+	<div id="cat4" class="semi"><a href="#"><h1 class="fontcat"> Жёсткий диск </h1></a></div>
+	<div id="cat5" class="semi"><a href="#"><h1 class="fontcat"> Материнская плата </h1></a></div>
 </div>
-<div id="footer"><h6>&copy; Nekto_Mr.Major</h6></div>
-	<div id="nav5"><a href="#" class="fontnav"><h1  class="fontnav"> Обратная связь </h1></a></div>
-	<div id="nav6"><a href="#" class="fontnav"><h1  class="fontnav"> Предложения </h1></a></div>
-	<div id="nav7"><a href="#" class="fontnav"><h1  class="fontnav"> Реклама </h1></a></div>
-	<div id="nav8"><a href="#" class="fontnav"><h1  class="fontnav"> Контакты </h1></a></div>
+<div id="footer"><h6>© Nekto_Mr.Major</h6></div>
+	<div id="nav5"><a href="#" class="fontnav"><h1 class="fontnav"> Обратная связь </h1></a></div>
+	<div id="nav6"><a href="#" class="fontnav"><h1 class="fontnav"> Предложения </h1></a></div>
+	<div id="nav7"><a href="#" class="fontnav"><h1 class="fontnav"> Реклама </h1></a></div>
+	<div id="nav8"><a href="#" class="fontnav"><h1 class="fontnav"> Контакты </h1></a></div>
 </div>
 </body>
 </html>
