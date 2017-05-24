@@ -1,0 +1,737 @@
+/*
+Theme Name: CompInfo
+Theme URI: compinfo.com
+Description: Тема интернет-портала CompInfo
+Author: Mr. Major
+*/
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+*{
+	margin: 0;
+	padding: 0;
+	}
+body {
+	background-image: url(img/bg.png);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%
+	}
+h4 {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	text-align: right;
+	color: #ff0000;
+	font-size: 15px;
+	margin-top: 2%;
+	margin-right: 2%;
+   }
+h3 {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	color: #000;
+	font-size: 20px;
+	text-decoration: underline;
+	}
+li {
+    list-style-type: none;
+	list-style-position: outside;
+   }
+.clear {
+	clear: both;
+	}
+.container {
+	/*margin:0 auto;
+	width: 100%;
+	height: auto;*/
+	width: 90%;
+	margin:0 auto;
+	position:relative;
+	height:auto;
+	min-height:100%;
+	padding-bottom:100px;
+
+	}
+.header {
+	background-image: url(img/head.png);
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+	height: 100px;
+	border-radius: 0 0 30px 30px;
+	}
+.hf {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #96C;
+	font-size: 40px;
+	display: none;
+	}
+.menu {
+	background: rgba(255, 255, 255, 0.2);
+	text-align: center;
+    float: left;
+    margin-top: 1.5%;
+	margin-left: 3%;
+	width: 160px;
+	height: 340px;
+	border-radius: 25px;
+	overflow: hidden;
+	}
+.content {
+	background: rgba(255, 255, 255, 0.25);
+	margin-top: 1.5%;
+	margin-left: 225px;
+	text-align: center;
+	height: 300px;
+	border-radius: 30px;
+	overflow: hidden;
+	}
+.nov1 {
+	background-image: url(img/01.jpg);
+	background-size: cover;
+	text-align: center;
+	float: left;
+	width: 25%;
+	}
+	.nov1 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.nov2 {
+	background-image: url(img/02.jpg);
+	background-size: cover;
+	text-align: center;
+	float: left;
+	width: 25%;
+	}
+	.nov2 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.nov3 {
+	background-image: url(img/04.jpg);
+	background-size: cover;
+	text-align: center;
+	float: left;
+	width: 25%;
+	}
+	.nov3 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.nov4 {
+	background-image: url(img/03.jpg);
+	background-size: cover;
+	text-align: center;
+	float: left;
+	width: 25%;
+	}
+	.nov4 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.footer {
+	background-image: url(img/foot.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed;
+	left:0;
+	bottom:0;
+	width: 80%;
+	height:65px;
+	border-radius:20px 20px 0 0;
+    text-align: right;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-left:10%;
+	border-radius: 30px 30px 0 0;
+	overflow: hidden;
+	}
+.footnav {
+	background: rgba(255, 255, 255, 0.25);
+	position: fixed;
+	left:0;
+	bottom:0;
+	float: left;
+	width: auto;
+	height: 65px;
+	margin-left: 10%;
+	border-radius: 30px 0 0 0;
+	overflow: hidden;
+	}
+	.footnav li {
+	text-align: center;
+	float: left;
+	}
+	.footnav li a {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	display: block;
+	padding: 2px 10px;
+	margin-top: 20px;
+	}
+	.footnav a:hover {
+		text-decoration: underline;
+	}
+.navigation {
+	background-image: url(img/nav.png);
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+	width: 90%;
+	height: 68px;
+	margin-left: 5%;
+	margin-right: 10%;
+	border-radius: 0 0 30px 30px;
+	overflow: hidden;
+	}
+.navigation2 {
+	background: rgba(255, 255, 255, 0.25);
+	float: right;
+	width: 370px;
+	height: 68px;
+	border-radius: 0 0 30px 0;
+	overflow: hidden;
+
+	}
+	.navigation2 li {
+	text-align: center;
+	float: right;
+	}
+	.navigation2 li a {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	display: block;
+	padding: 4px;
+	margin-right: 15px;
+	margin-top: 15px;
+	}
+	.navigation2 a:hover {
+		text-decoration: underline;
+	}
+.cat {
+	/*background-color: blue;*/
+	width: 80%;
+	height: 100px;
+	overflow: hidden;
+	margin-top: 1.5%;
+	margin-left: 110px;
+	}
+.cat1 {
+	background-image: url(img/ozu.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	text-align: center;
+	float: right;
+	width: 20%;
+	height: 100%;
+   }
+   	.cat1 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.cat2 {
+	background-image: url(img/vid.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	text-align: center;
+	float: right;
+	width: 20%;
+	height: 100%;
+   }
+   	.cat2 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.cat3 {
+	background-image: url(img/cpu.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	text-align: center;
+	float: right;
+	width: 20%;
+	height: 100%;
+   }
+   	.cat3 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.cat4 {
+	background-image: url(img/hard.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	text-align: center;
+	float: right;
+	width: 20%;
+	height: 100%;
+   }
+   	.cat4 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.cat5 {
+	background-image: url(img/mother.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	text-align: center;
+	float: right;
+	width: 20%;
+	height: 100%;
+   }
+   	.cat5 a:link {
+	display: block;
+    text-align: center;
+    height: 100%;
+	}
+.fontnav {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	padding-top: 22.5%;
+	}
+.fontn {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	}
+	.fontn:hover {
+		text-decoration: underline;
+	}
+.fontcat {
+	font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: 16px;
+	background: rgba(255, 255, 255, 0.25);
+	}
+	.fontcat:hover {
+		text-decoration: underline;
+	}
+.fontgl {
+	margin-top: 2%;
+	margin-left: -40%;
+	margin-bottom: 5%;
+	}
+.fontpro {
+	margin-left: -30%;
+	margin-bottom: 5%;
+	}
+.fontnov {
+	margin-left: -40%;
+	margin-bottom: 5%;
+	}
+.fontcon {
+	margin-left: -30%;
+	margin-bottom: 5%;
+	}
+A:link {
+	text-decoration: none;
+   font-weight: 100px;
+   color: #000;
+   font-family: Monotype Corsiva, Arial;
+   font-style: italic;
+   }
+A:visited {
+   text-decoration: none;
+   font-weight: 100px;
+   font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	color: #000;
+   }
+A:active {
+    text-decoration: none;
+    font-weight: bold;
+	background: rgba(255, 255, 255, 0.15);
+    font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	color: #000;
+	}
+A:hover {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Monotype Corsiva, Arial;
+	font-style: italic;
+	color: #000;
+   }
+.i1 {
+	max-width: 90%;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 30px;
+	}
+.semi {opacity: 1.0;}
+.semi:hover {opacity: 0.5;}
+
+/*Поиск*/
+.search {
+  /* устанавливаем необходимую ширину формы в зависимости от дизайна
+  ** форма без проблем раст¤гиваетс¤ */
+  max-width: 25%;
+  margin-top: 10px;
+  margin-left: 125px;
+
+  /* кнопку отправки будем позиционировать абсолютно,
+  ** поэтому необходимо это свойство */
+  position: relative;
+	}
+
+.search input {
+  /* отключаем бордюры у инпутов */
+  border: none;
+	}
+
+/* стили дл¤ пол¤ ввода */
+.search .input {
+  /* раст¤гиваем поле ввода на всю ширину формы */
+  width: 100%;
+
+  /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки	*/
+  padding: 8px 37px 9px 15px;
+
+  /* чтобы ширина пол¤ ввода (100%) включала в себ¤ внутренние отступы */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* добавл¤ем внутренние тени */
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+
+  /* закругл¤ем углы */
+  border-radius: 20px;
+
+  background: #EEE;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #555;
+  outline: none;
+	}
+
+/* мен¤ем оформление пол¤ ввода при фокусе */
+.search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+  background: #E8E8E8;
+  color: #333;
+	}
+
+/* оформл¤ем кнопку отправки */
+.search .submit {
+  /* позиционируем кнопку абсолютно от правого кра¤ формы */
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 37px;
+
+  /* раст¤гиваем кнопку на всю высоту формы */
+  height: 100%;
+
+  cursor: pointer;
+  background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+
+  /* добавл¤ем прозрачность кнопке отправки */
+  opacity: 0.5;
+	}
+
+/* при наведении курсора мен¤ем прозрачность кнопки отправки */
+.search .submit:hover {
+  opacity: 0.8;
+	}
+
+/* данное свойство необходимо дл¤ того, чтобы в браузерах
+** Chrome и Safari можно было стилизовать инпуты */
+input[type="search"] {
+  -webkit-appearance: none;
+	}
+
+
+
+/*Слайдер*/
+*{
+    margin:0;
+    padding:0;
+	}
+.slides {
+    height: 35%;
+    overflow:hidden;
+    position:relative;
+    width: auto;
+	border-radius: 30px;
+	margin-left: 225px;
+	margin-top: 1.5%;
+	}
+	.slides ul {
+	list-style:none;
+    position:relative;
+	}
+	.slides img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 30px;
+	}
+
+/* Кадры анимации #anim_slides */
+@-webkit-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+	}
+@-moz-keyframes anim_slides {
+    0% {
+        opacity:0;
+    }
+    6% {
+        opacity:1;
+    }
+    24% {
+        opacity:1;
+    }
+    30% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+	}
+
+.slides ul li {
+    opacity:0;
+    position:absolute;
+    top:0;
+
+    /* анимация css3 */
+    -webkit-animation-name: anim_slides;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_slides;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+	}
+
+/* Задержки css3 */
+.slides ul  li:nth-child(2), .slides ul  li:nth-child(2) div {
+    -webkit-animation-delay: 6.0s;
+    -moz-animation-delay: 6.0s;
+	}
+.slides ul  li:nth-child(3), .slides ul  li:nth-child(3) div {
+    -webkit-animation-delay: 12.0s;
+    -moz-animation-delay: 12.0s;
+	}
+.slides ul  li:nth-child(4), .slides ul  li:nth-child(4) div {
+    -webkit-animation-delay: 18.0s;
+    -moz-animation-delay: 18.0s;
+	}
+.slides ul li img {
+    display:block;
+	}
+
+/* Кадры анимации #anim_titles */
+@-webkit-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+	}
+@-moz-keyframes anim_titles {
+    0% {
+        left:100%;
+        opacity:0;
+    }
+    5% {
+        left:10%;
+        opacity:1;
+    }
+    20% {
+        left:10%;
+        opacity:1;
+    }
+    25% {
+        left:100%;
+        opacity:0;
+    }
+    100% {
+        left:100%;
+        opacity:0;
+    }
+	}
+
+.slides ul li div {
+
+    /* Анимация css3 */
+    -webkit-animation-name: anim_titles;
+    -webkit-animation-duration: 24.0s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: anim_titles;
+    -moz-animation-duration: 24.0s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+	}
+
+/* Адаптация */
+/* Ноутбуки и т.д */
+@media (max-width: 992px) {
+.slides,.content {height: 20%}
+.search {
+		margin-left: 6%;
+		margin-top: 1%;
+	}
+.header {height: 75px;}
+.i1 {
+		margin-top: 0;
+		max-width: 25%;
+		height: auto;
+	}
+.menu {
+		margin-bottom: 1.5%;
+	}
+.content {height: 40%;}
+	}
+.nov1, .nov2, .nov3, .nov4 {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 50%;
+	}
+/* Планшеты */
+@media (max-width: 768px) {
+.container {width: 100%;}
+.header {height: 50px;}
+.hf {
+	margin-left: 20px;
+	display: inline;
+	}
+.cat {
+	margin-top: 5%;
+	margin-left: 0;
+	width: auto;
+	}
+.i1, .search {display: none;}
+.navigation {height: 45px;}
+.navigation2 {display: block;}
+.navigation2 li a {margin-top: 8px;}
+.slides,.content {margin-left: 190px;}
+.content {height: 40%;}
+.nov1, .nov2, .nov3, .nov4 {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 50%;
+	}
+}
+/* Смартфоны */
+@media (max-width: 512px) {
+.cat {
+	margin-top: 10%;
+	margin-left: 0;
+	width: auto;
+	}
+.slides {
+	width: auto;
+	float: none;
+	height: 20%
+	}
+.content {
+	width: auto;
+	float: none;
+	height: 30%;
+	margin-top: 5%;
+	}
+.nov1, .nov2, .nov3, .nov4 {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 50%;
+	}
+.navigation2 {display: none;}
+.footnav {display: none;}
+h4 {text-align: center;}
+}
